@@ -39,6 +39,7 @@ function _rake_command {
 alias rails='_rails_command'
 alias rake='_rake_command'
 
+alias restartpassenger='touch tmp/restart.txt' #restart passenger server. Create tmp/ in you production clone-from-git apps!
 
 # View app log
 alias devlog='tail -f log/development.log'
