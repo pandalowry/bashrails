@@ -18,4 +18,4 @@ fi
 ```
 
 ## License
-Bashrails is released under the [MIT license](LICENSE.txt).
+Bashrails is released under the [MIT license](LICENSE).
