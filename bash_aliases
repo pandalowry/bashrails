@@ -35,6 +35,14 @@ function _rake_command {
 	fi
 } 
 
+#apache alias
+alias rsap='sudo service apache2 restart'
+
+
+#git alias
+alias gpom='git push origin master'
+
+
 # wrap 2 native commands
 alias rails='_rails_command'
 alias rake='_rake_command'
