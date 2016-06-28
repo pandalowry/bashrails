@@ -42,6 +42,8 @@ alias rsap='sudo service apache2 restart'
 #git alias
 alias gpom='git push origin master'
 
+#laravel alias
+alias lperm='sudo chgrp -R www-data storage bootstrap/cache && sudo chmod 777 -R bootstrap/cache/ storage/'
 
 # wrap 2 native commands
 alias rails='_rails_command'
