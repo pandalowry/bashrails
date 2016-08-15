@@ -9,7 +9,7 @@ and restart terminal. Enjoy :)
 For understand and tuning, please read comments in file.
 
 ## Where work?
-Tested in Ubuntu 14.04. 
+Tested in Ubuntu 14.04 and 16.04 
 Must works on another linux, where have if ~/.bashrc following:
 
 ```bash
