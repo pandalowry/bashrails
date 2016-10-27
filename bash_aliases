@@ -38,5 +38,7 @@ alias rsp='rails server --port'
 #
 
 # Other good shell-tricks
-alias cfnc='grep ^[^#]'
+alias cfnc='grep ^[^#]' #view config file without comments
+
+alias gbb="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) | %(authorname) | (%(color:green)%(committerdate:relative)%(color:reset))|%(contents:subject) ' | column -t -s '|'" #pretty-view git branch
 
