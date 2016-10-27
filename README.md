@@ -6,7 +6,16 @@ based on file from zsh's config framework [oh-my-zsh](https://github.com/robbyru
 ## Usage
 Put file bash_aliases to ~/.bash_aliases (you user home path)
 and restart terminal. Enjoy :)
+
 For understand and tuning, please read comments in file.
+
+For view and edit file, use command 
+
+```bash
+ea
+```
+This command automatically run file in bash after you exit in vim.
+
 
 ## Where work?
 Tested in Ubuntu 14.04 and 16.04 
