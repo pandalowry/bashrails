@@ -37,3 +37,6 @@ alias rsd='rails server --debugger'
 alias rsp='rails server --port'
 #
 
+# Other good shell-tricks
+alias cfnc='grep ^[^#]'
+
