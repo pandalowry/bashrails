@@ -7,38 +7,14 @@ alias gpom='git push origin master'
 
 alias gphm='git push heroku master'
 
-#use binstubs rails in bin/ firstly
-function _rails_command {
-	if [ -e "bin/rails" ] ; then
-		bin/rails $@	
-	else
-		rails $@
-	fi
-}  
-
-alias rails='_rails_command'
-
-# View app log
 alias devlog='tail -f log/development.log'
 alias prodlog='tail -f log/production.log'
 alias testlog='tail -f log/test.log'
-#
 
 # Rails aliases
-alias rc='rails console'
-alias rd='rails destroy'
-alias rdb='rails dbconsole'
-alias rg='rails generate'
-alias rgm='rails generate migration'
-alias rp='rails plugin'
-alias ru='rails runner'
 alias rs='rails server'
-alias rsd='rails server --debugger'
-alias rsp='rails server --port'
-#
 
 # Other good shell-tricks
 alias cfnc='grep ^[^#]' #view config file without comments
 
 alias gbb="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) | %(authorname) | (%(color:green)%(committerdate:relative)%(color:reset))|%(contents:subject) ' | column -t -s '|'" #pretty-view git branch
-
